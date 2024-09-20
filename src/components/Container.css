@@ -1,0 +1,50 @@
+.hero {
+    background-color: #ecf0f1;
+    background-image: 
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url('../img/img1.jpg'); /* Altere 'sua-imagem.jpg' para o nome do seu arquivo */
+    background-size: contain; /* Ajusta a imagem para que ela seja totalmente visível */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    background-position: center top; /* Centraliza a imagem e a alinha no topo */
+    background-attachment: fixed; /* Efeito de paralaxe (opcional) */
+    padding: 4rem 2rem;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero h1, .hero p {
+    color: white; /* Texto branco para contraste */
+  }
+  
+  
+  .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #e2e7eb;
+  }
+  
+  .hero p {
+    font-size: 1.25rem;
+    color: #eaeff4;
+    margin-bottom: 2rem;
+  }
+  
+  .hero-btn {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    font-size: 1.25rem;
+    cursor: pointer;
+  }
+  
+  .hero-btn:hover {
+    background-color: #c0392b;
+  }
+  
