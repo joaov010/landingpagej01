@@ -1,0 +1,64 @@
+/* contato.css */
+
+.contato {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+  }
+  
+  .contato h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .contato-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 400px;
+    text-align: left;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .submit-button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
